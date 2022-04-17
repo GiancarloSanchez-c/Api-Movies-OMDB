@@ -1,0 +1,34 @@
+.header {
+    background-color: rgba(7, 7, 7, 0.911);
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+.nav ul li img {
+    position: relative;
+    width:55px;
+    height:40px;
+    top: 4px;
+    right: 50;
+
+}
+.nav ul li a {
+    display: block;
+    padding: 1rem;
+    margin: 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav ul li a:hover{
+    background-color: tomato;
+    color: #fff ;
+}
+

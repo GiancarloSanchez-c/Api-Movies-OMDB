@@ -1,0 +1,27 @@
+.deleteButton {
+  display: flex;
+  flex-direction: row;
+  background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+  border-radius: 20px;
+  color: #EEEEEE;
+  font-size: 13px;
+  padding: 6px;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 3px 1px 20px #000000;
+  border: solid #337FED 1px;
+  cursor: pointer;
+  margin-left: 280px;
+}
+
+
+
+.favorites {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
